@@ -8,5 +8,8 @@ Første forsøk på å kjøre testene feilet, siden ingen tester kjørte. Surefi
 oppdaterte jeg denne til en versjon som støtter testene mine. Jeg commitet den nye pom.xml filen, og så deretter i workflow loggen at 
 alle testene kjørte som et resultat av forrige commit.
 
+Til slutt la jeg til en test reporter på workflow som gjør resultatene synlige uten å logge inn.
+
 Kilder
 Template kode: https://dev.to/ewefie/getting-started-with-github-actions-run-junit-5-tests-in-a-java-project-with-maven-20g4
+Test reporter: https://github.com/marketplace/actions/test-reporter
